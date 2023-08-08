@@ -34,7 +34,7 @@ async function addProduct(formData: FormData) {
 
 export default function AddProduct() {
   return (
-    <div className="max-w-lg m-auto h-screen ">
+    <div className="max-w-4xl m-auto h-screen ">
       <h1 className="font-bold text-lg mb-3 ">Add Product</h1>
       <form action={addProduct}>
         <input
